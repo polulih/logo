@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.conteiner{
+    margin: 0 auto; 
+    max-width: 1070px;
+}
+.header{
+    background: rgba(255, 113, 67, 0.27);
+    padding: 38px; 0; 48px;
+}
+.header-ficks{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+}
+.nav-li{
+    display: inline-block;
+}
+.nav-li:not(:first-of-type){
+    margin-left: 49px;
+}
+.nav-link{
+ font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: -0.468947px;
+color: #696871;
+text-decoration: none;
+}
+.nav-link:hover{
+    color: black;
+    transition: 300ms;
+}
+.botton{
+    width: 212px;
+    height: 60px;
+    font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+letter-spacing: -0.531474px;
+color: #FFFFFF;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+
+}
+.botton-oranger{
+    background-color: #FF7143;
+    }
+.botton-oranger:hover{
+  background-color:   #e78767;
+  transition: 500ms;
+}
+.abaut-titil{
+font-weight: 700;
+font-size: 80px;
+line-height: 77px;
+letter-spacing: -2.50105px;
+color: #19191B;
+max-width: 467px;
+margin-bottom: 30px;
+margin-top: 98px;
+}
+.abaut-teks{
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.625263px;
+color: #696871;
+margin-bottom: 50px;
+max-width: 410px;
+}
+.bottom-violet{
+    background-color: #5454D4;
+    margin-right: 35px; 
+}
+.bottom-violet:hover{
+    background-color: #9f9fd0;
+    transition: 500ms;
+}
+.bottom-trasperet{
+    background:none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-bottom: 63px;
+}
+.bottom-trasperet:hover{
+    background-color: rgb(157, 150, 150) ;
+    transition: 500ms;
+}
+.weanter{
+    margin-top: 100px;
+}
+/* .sama/ */
+.python{
+    margin-bottom: 90px;
+}
+
+.texs-less{
+font-weight: 700;
+font-size: 50px;
+line-height: 57px;
+letter-spacing: -1.56316px;
+color: #19191B;
+margin-bottom: 39px;
+}
+.botton-clap{
+    color: #19191B;
+    background: none;
+    border: 1px solid #5454D4;
+    margin-right: 35px;
+}
+.botton-step{
+background-color: #5454D4;
+}
+
+/* stertu */
+ 
+
+.fotter-lilte{
+    display: inline-block;
+}
+.fotter-lilte:not(:first-of-type){
+    margin-left: 49px;}
+
+.nev-fotter{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+        
+}
+.nev-fotter:hover{
+    color: black;
+    transform: 300ms;
+}
